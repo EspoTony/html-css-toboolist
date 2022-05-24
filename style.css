@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  header {
+    height: 70px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    background-color: #FFFFFF;
+  }
+  
+  .logo {
+    vertical-align: middle;
+    padding-left: 20px;
+  }
+  
+  .titolo {
+    display: inline;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: arial;
+  }
+  
+  .contenitore {
+    margin: auto;
+    background-color: #FFFFFF;
+    height: 630px;
+    width: 700px;
+    border-radius: 5px;
+  }
+  
+  /* Pulsanti */
+  .bottoni{
+    padding: 20px 40px;
+  }
+  
+  .pulsante {
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    border: 1px solid #ddd;
+  }
+  
+  .task {
+    background-color: #99cbff;
+    color: #ffffff;
+  }
+  
+  .section {
+    background-color: #ffffff;
+    color: #d7d7d7;
+  }
+  
+  hr {
+    border: 1px solid #f6f8f9;
+  }
+  
+  /* Lista */
+  .lista{
+    margin: 30px 40px;
+  }
+  
+  .lista ul {
+    list-style: none;
+    font-family: arial;
+  }
+  
+  .lista li {
+    margin: 10px;
+  }
+  
+  .cerchio {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    border-radius: 50%;
+    line-height: 15px;
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  .spunta {
+    border: 1px solid #2cc6ab;
+    color: #2cc6ab;
+  }
